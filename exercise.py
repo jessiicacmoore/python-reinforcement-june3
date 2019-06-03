@@ -1,16 +1,18 @@
 dict = {}
 
+
 def make_dict(x, y):
     for i in range(x, y):
         pass
         if i % 2 == 0 and i % 7 == 0:
-            dict[i] = i*2
+            dict[i] = i * 2
         elif i % 2 == 0:
-            dict[i] = i+1
+            dict[i] = i + 1
         elif i % 7 == 0:
-            dict[i] = i-1
+            dict[i] = i - 1
         else:
             dict[i] = i
+
 
 make_dict(1, 51)
 print(dict)
